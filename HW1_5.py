@@ -32,7 +32,7 @@ Bx = B*x_m
 E1 = Bx-np.tan(np.pi/(2*C))
 E2 = (Bx)-np.arctan(Bx)
 E=E1/E2
-x=np.arange(-1,1,0.1)
+x=np.arange(-1,1,0.01)
 F = D*np.sin(C*np.arctan(B*x-E*(B*x-np.arctan(B*x))))
 
 def G(arg1):
